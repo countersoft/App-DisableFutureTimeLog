@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>App-DisableFutureTimeLog</RootNamespace>
-    <AssemblyName>App-DisableFutureTimeLog</AssemblyName>
+    <AssemblyName>DisableFutureTimeLog</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
