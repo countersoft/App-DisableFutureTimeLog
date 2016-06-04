@@ -29,7 +29,7 @@ namespace AutoOpenClosedItem
         {
             var userManager = GeminiApp.GetManager<UserManager>(args.User);
             var userDto = userManager.Convert(args.User);
-            if (args.Entity.EntryDate > DateTime.UtcNow.ToLocal(userDto.TimeZone))
+            if (args.Entity.EntryDate.Date > DateTime.UtcNow.ToLocal(userDto.TimeZone).Date)
             {
                 args.Cancel = true;
                 args.CancelMessage = "Cannot log time in the future";
