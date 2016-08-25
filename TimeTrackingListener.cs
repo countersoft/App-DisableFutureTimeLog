@@ -39,7 +39,7 @@ namespace AutoOpenClosedItem
 
         public IssueTimeTracking BeforeIssueTimeTrackingUpdated(IssueTimeTrackingEventArgs args)
         {
-            return BeforeIssueTimeTrackingUpdated(args);
+            return BeforeIssueTimeTrackingCreated(args);
         }
 
         public IssueTimeTracking BeforeIssueTimeTrackingDeleted(IssueTimeTrackingEventArgs args)
